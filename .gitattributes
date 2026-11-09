@@ -1,0 +1,3 @@
+# Keep LF endings everywhere: this repo is cloned and docker-built on Linux,
+# and CRLF in the Dockerfile or Python sources can break the build.
+* text=auto eol=lf
